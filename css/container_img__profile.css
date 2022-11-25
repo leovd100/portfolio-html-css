@@ -1,0 +1,41 @@
+.container_img__profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+
+.container_img__profile .img_background{
+    border-radius: 5%;
+    
+    position: absolute;
+    
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    
+}
+
+.container_img__profile .img_background:nth-child(2n){
+    top: 75px;
+    right: 75px;
+    background-color: rgb(16, 36, 39);
+    box-shadow: 0 0 10px 4px #00ccff;
+}
+.container_img__profile .img_background:nth-child(3n){
+    bottom: 75px;
+    left: 75px;
+    background-color: rgb(16, 36, 39);
+    box-shadow: 0 0 10px 4px rgb(0, 217, 255);
+}
+
+
+.profile_img img{
+    width: 250px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 10px 4px #00ccff;
+}

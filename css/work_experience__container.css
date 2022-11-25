@@ -1,0 +1,14 @@
+
+.work_experience__containers{
+    min-height: 500px ;
+    background: linear-gradient( rgb(2, 13, 80), #000, #000 );
+    
+
+}
+
+.work_experience__containers h2{
+    
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #fff;
+}

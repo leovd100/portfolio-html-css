@@ -1,0 +1,231 @@
+.container_info__profile,
+.container_img__profile {
+    margin-bottom: 3rem;
+}
+
+
+.projects_container .project:last-child {
+    margin-bottom: 200px;
+}
+
+
+@media (max-width: 900px) {
+    .img_project  a img{
+        max-width: 400px;
+    }
+
+
+
+    .info_project p{
+        font-size: 18px;
+       
+        
+    }
+    
+    .img_project  a img{
+        margin:0 1.3rem;
+    }
+
+    
+    .info_project{
+        margin:0;
+        width: 320px;
+    }
+    
+}
+
+
+@media(min-width:800px) {
+    #container_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .about-me {
+        padding: 3rem;
+        min-height: 30vh;
+    }
+
+    .about-me p {
+        width: 70%;
+    }
+
+    .container_education h2 {
+        margin-bottom: 40px;
+    }
+
+    .img_project  a img{
+        max-width: 350px;
+    }
+
+
+
+    .info_project p{
+        font-size: 16.5px;
+       
+        
+    }
+    
+    .img_project  a img{
+        margin:0 1.3rem;
+    }
+
+    
+    .info_project{
+        margin:0;
+        width: 320px;
+    }
+    
+}
+
+@media(max-width:799px) {
+    #container_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .container_info__profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .container_info__profile .info {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .info div {
+        margin-right: 0;
+    }
+
+
+    .icon {
+        margin-left: 5px;
+    }
+    .technologies_box{
+        max-width: 95%;
+        justify-content: center;
+    }
+
+    .container_img__profile .profile_img img {
+        width: 180px;
+
+    }
+
+    .container_img__profile .img_background {
+        width: 130px;
+        height: 130px;
+    }
+
+    .about-me {
+        padding: 1rem;
+        min-height: 20vh;
+    }
+
+    .about-me p {
+        width: 80%;
+        font-size: 18px;
+    }
+   
+    .container_education h2 {
+        margin: 60px 0px 40px 0;
+    }
+
+   .img_project  a img{
+        max-width: 300px;
+    }
+
+
+
+    .info_project p{
+        font-size: 16px;
+       
+        
+    }
+    
+    .img_project  a img{
+        margin:0 1rem;
+    }
+
+    
+    .info_project{
+        margin:0;
+        width: 320px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .education p {
+        font-size: 18px;
+    }
+
+    .education_list {
+        max-width: 75%;
+    }
+
+    .technologies_container{
+        justify-content: center;
+    }
+
+    .technologies_box{
+        max-width: 90%;
+        justify-content: center;
+    }
+
+    .technologies_box i{
+        
+        padding: 5px;
+    }
+    
+    .technologies_box i:nth-child(2n){
+        margin: 0px 0px 25px 25px ;
+    }
+    .technologies_box i:nth-child(2n-1){
+        margin: 0px 25px 25px 0px ;
+    }
+
+    .work_experience__containers {
+        padding-top: 2rem;
+    
+    }
+
+    .project{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 60%;
+  
+    }
+
+    .project:nth-child(2n+1){
+        flex-direction: column;
+    }
+
+    .info_project{
+        width: 80%;
+        text-align: center;
+        margin: 1.5rem 0 0.5rem 0;
+        border-top: 1px solid #000;
+    }
+
+
+    .img_project  a img{
+        max-width: 300px;
+        margin:0;
+       
+    }
+
+    .projects_container h2{
+        margin-bottom: 5rem;
+        margin-top: 8rem;
+    }
+    
+}

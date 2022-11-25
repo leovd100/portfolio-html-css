@@ -1,0 +1,11 @@
+.container_fotter{
+    height: 200px;
+    background-color: #000;
+    text-align: center;
+    
+}
+
+.container_fotter p{
+    color: #fff;
+   
+}

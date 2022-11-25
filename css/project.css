@@ -1,0 +1,35 @@
+
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 70%;
+ 
+    padding: 35px 0;
+}
+
+.project:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+
+
+.img_project  a img{
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #000;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.img_project a img:hover{
+    box-shadow: 0 0 10px 2px rgb(4, 0, 248);
+}
+
+
+
+.info_project p{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    
+}

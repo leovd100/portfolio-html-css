@@ -1,0 +1,40 @@
+.container_info__profile{
+    color: #fff;
+    width: 300px;
+    height: auto;
+  
+}
+
+
+
+.container_info__profile .info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    
+}
+
+.container_info__profile p {
+    font-weight: 500;
+}
+
+.info div{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 0px; 
+}
+
+
+
+.info div a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.icon{
+    
+    font-size: 18px;
+    margin-right: 5px;
+}

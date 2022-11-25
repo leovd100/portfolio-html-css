@@ -1,0 +1,24 @@
+
+.technologies_box{
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.technologies_box i{
+    font-size: 110px;
+    color: #fff;
+    margin: 0 0 50px 50px;
+    box-shadow: 0 0 15px 5px rgb(2, 180, 224);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+    cursor: pointer;
+}
+
+.technologies_box i:hover{
+    box-shadow: 0 0 15px 5px rgb(0, 255, 242);
+}
